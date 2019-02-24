@@ -1,0 +1,82 @@
+body {		background-color: #00005D; 
+		font-family: Verdana, Arial, sans-serif; }
+
+#wrapper {	margin: 0 auto;
+		width: 80%; 
+		min-width: 960px; max-width: 1200px;
+		background-color: #B3C7E6;
+		color: #000066; }
+
+header { 	background-color: #869DC7;
+		color: #00005D;
+		font-size: 150%;
+		padding: 60px 10px 60px 215px;
+		background-repeat: no-repeat;
+		background-image: url(gaycouple.jpg); }
+
+h1 { 		margin-bottom: 20px; }
+
+h2 { 		color: #869DC7;
+		font-family: Arial, sans-serif; }
+
+#floatleft { 	float: left;
+		margin: 10px; }
+
+nav { 		float: left;
+		width: 200px;
+		font-weight: bold;
+		letter-spacing: 0.1em; }
+
+nav ul { 	list-style-type: none; 
+		margin: 0; 
+		padding: 0; }
+
+nav a { 	text-decoration: none;
+		padding: 20px;
+		display: block;
+		background-color: #B3C7E6;
+		border-bottom: 1px solid #FFFFFF; }
+
+nav a:link { 	color: #FFFFFF; }
+
+nav a:visited { color: #EAEAEA; }
+
+nav a:hover { 	color: #869DC7; 
+		background-color: #EAEAEA; }
+
+main { 		background-color: #ffffff; 
+		color: #000000;
+		padding: 10px 20px; display: block;
+		overflow: auto; }
+
+main img { 	float: right;
+		padding: 10px; }
+
+main a { 	text-decoration: none; }
+
+table {		margin: auto;
+		border: 5px solid #000066;
+		width: 600px;
+		border-spacing: 0; }
+
+td, th {	padding: 0.5em;
+		// border-style: none;
+		font-family: Arial, sans-serif; }
+
+caption {	font-family: Verdana, sans-serif; 
+		font-weight: bold;
+		font-size: 1.2em;
+		padding-bottom: 0.5; }
+
+
+tr:first-of-type { background-color: #000066;
+		   color: #eaeaea; }
+
+tr:nth-of-type(even) { background-color: #eaeaea; }
+
+footer { 	font-size: 70%;
+		text-align: center;
+		padding: 10px;
+		background-color: #869DC7;
+		clear: both; }
+footer a { 	text-decoration: none; }
